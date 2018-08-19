@@ -24,5 +24,8 @@ public interface client02Api {
     @GetMapping("test_c2_delete")
     public String test_c2_delete();
 
+    @GetMapping("test_c2_git")
+    public String test_c2_git();
+
 
 }
