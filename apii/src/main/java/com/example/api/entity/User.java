@@ -12,6 +12,11 @@ public class User {
     public User() {
     }
 
+    public User(String username, Integer age) {
+        this.username = username;
+        this.age = age;
+    }
+
     public String getUsername() {
         return username;
     }
