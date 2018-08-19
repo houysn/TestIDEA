@@ -17,7 +17,12 @@ public interface client02Api {
     @GetMapping("test_c2_param")
     public String test_c2_param(@RequestParam("id") String id);
 
+
     @GetMapping("test_c2_put")
     public String test_c2_put();
+
+    @GetMapping("test_c2_delete")
+    public String test_c2_delete();
+
 
 }

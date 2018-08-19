@@ -1,9 +1,8 @@
 package com.example.api.client01;
 
+import com.example.api.entity.User;
 import io.swagger.annotations.Api;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by Lenovo on 2018/8/11.
@@ -15,5 +14,9 @@ public interface client01Api {
 
     @GetMapping("test_c1_path/{id}")
     public String test_c1_path(@PathVariable("id") String id);
+
+
+    @PostMapping("test_c1_post")
+    public String test_c1_post(@RequestParam  User user);
 
 }
