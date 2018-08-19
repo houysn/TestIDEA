@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/TestIDEA.iml" filepath="$PROJECT_DIR$/.idea/TestIDEA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apii/apii.iml" filepath="$PROJECT_DIR$/apii/apii.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client02/client02.iml" filepath="$PROJECT_DIR$/client02/client02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servers/servers.iml" filepath="$PROJECT_DIR$/servers/servers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xc-framework-parent/xc-framework-parent.iml" filepath="$PROJECT_DIR$/xc-framework-parent/xc-framework-parent.iml" />
+    </modules>
+  </component>
+</project>
